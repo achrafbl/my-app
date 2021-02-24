@@ -9,9 +9,9 @@ public class Calculator {
 	 * @return int
 	 */
 	public int min(int i, int j){
-		return i-j;
+		return i+j;
 	}
 	public int div(int i, int j){
-		return i / j;
+		return i*j;
 	}
 }
