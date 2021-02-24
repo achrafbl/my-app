@@ -12,7 +12,7 @@ import junit.framework.TestCase;
 public class CalculatorTest extends TestCase {
 	Calculator cal = new Calculator();
 
-	public void testMin() {
+	public void testAdd() {
 		Properties prop = new Properties();
 		
 		OutputStream output = null;
@@ -47,11 +47,11 @@ public class CalculatorTest extends TestCase {
 		}
 	}
 
-	public void testDiv() {
-		Assert.assertEquals(cal.div(10, 20), 200);
+	public void testMultiply() {
+		Assert.assertEquals(cal.multiply(10, 20), 200);
 	}
 	
-	public void testMinNew() {
-		Assert.assertEquals(cal.min(10, 20), 30);
+	public void testAddNew() {
+		Assert.assertEquals(cal.add(10, 20), 30);
 	}
 }
